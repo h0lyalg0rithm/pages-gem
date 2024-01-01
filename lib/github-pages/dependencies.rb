@@ -5,7 +5,7 @@ module GitHubPages
   # and versions locked. Any plugin for Pages must be specified here with a
   # corresponding version to which it shall be locked in the runtime dependencies.
   class Dependencies
-    VERSIONS = {
+    AVERSIONS = {
       # Jekyll
       "jekyll" => "4.3.3",
       "jekyll-sass-converter" => "3.0.0",
@@ -42,6 +42,7 @@ module GitHubPages
       "jekyll-default-layout" => "0.1.4",
       "jekyll-titles-from-headings" => "0.5.3",
     }.freeze
+    VERSIONS = {}
 
     # Jekyll and related dependency versions as used by GitHub Pages.
     # For more information see:
