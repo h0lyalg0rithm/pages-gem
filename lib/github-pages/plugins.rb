@@ -48,7 +48,7 @@ module GitHubPages
 
     # Themes
     THEMES = {
-      "minima" => "3.0.0.dev",
+      "minima" => "2.5.1",
       "jekyll-swiss" => "1.0.0",
       "jekyll-theme-primer" => "0.6.0",
       "jekyll-theme-architect" => "0.2.0",
@@ -67,6 +67,7 @@ module GitHubPages
 
     # Themes to convert to remote themes
     THEMES_TO_CONVERT_TO_REMOTE_THEMES = {
+      "minima" => "jekyll/minima@3.0.0.dev",
       "jekyll-swiss" => "broccolini/swiss",
       "jekyll-theme-primer" => "pages-themes/primer@v0.6.0",
       "jekyll-theme-architect" => "pages-themes/architect@v0.2.0",
